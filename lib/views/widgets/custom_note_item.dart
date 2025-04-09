@@ -31,7 +31,9 @@ class NoteItem extends StatelessWidget {
               child: Text(
                 'Build your career with mora',
                 style: TextStyle(
-                    color: Colors.black.withOpacity(.5), fontSize: 18),
+                  color: Colors.black.withOpacity(.5),
+                  fontSize: 18,
+                ),
               ),
             ),
             trailing: IconButton(
